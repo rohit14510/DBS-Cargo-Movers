@@ -174,9 +174,9 @@
   margin-top: -113px;
 }
 .dbs-about-form-card {
-  background: #fff;
+  background: transparent;
   box-shadow: 0 4px 32px 0 rgba(33,43,73,.12);
-  border-radius: 0 0 6px 6px;
+  border-radius:  6px 6px;
   margin-top: 0;
   padding-top: 0;
   position: relative;
@@ -877,7 +877,7 @@
   .dbs-footer-logo {height: 33px;}
 }
 @media (max-width: 767.98px) {
-  .dbs-footer-logo {height: 28px;}
+  .dbs-footer-logo {height: 38px;}
   .dbs-footer-section {font-size: 0.97rem;}
   .dbs-footer-title {margin-bottom: 5px; font-size: 1.5rem;}
   .dbs-footer-bottom {font-size: 0.93rem;}
