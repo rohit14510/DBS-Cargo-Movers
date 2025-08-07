@@ -1,0 +1,95 @@
+  <header class="dbs-header sticky-top shadow-sm">
+      <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="assets/images/logo.png"
+              class="dbs-logo-icon"
+              alt="dbs Logo"
+            />
+          </a>
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#dbsNavbar"
+            aria-controls="dbsNavbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="dbsNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link dbs-nav-link active" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dbs-nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dbs-nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link dbs-nav-link" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link dbs-nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <a href="#" class="ms-lg-3 mt-2 mt-lg-0">
+              <button class="dbs-order-btn" id="dbs-order-btn">Book Now</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+    .dbs-header {
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  z-index: 10;
+}
+.dbs-logo-text {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #391e6b;
+}
+.dbs-logo-icon {
+  height: 38px;
+  margin-right: 8px;
+}
+.dbs-nav-link {
+  color: #391e6b !important;
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 16px;
+  transition: color 0.2s;
+}
+.dbs-nav-link.active,
+.dbs-nav-link:hover {
+  color: #10345b !important;
+  text-decoration: underline;
+}
+.dbs-order-btn {
+  background: #391e6b;
+  color: white;
+  padding: 10px 28px;
+  border-radius: 2px;
+  letter-spacing: 0.04em;
+  font-weight: bold;
+  transition: background 0.2s;
+  border: none;
+}
+.dbs-order-btn:hover {
+  background: #10345b;
+}
