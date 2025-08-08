@@ -11,26 +11,29 @@ document.addEventListener('DOMContentLoaded', function () {
       let interval = setInterval(() => {
         curr += step * (goal / (duration / 10));
         if (curr >= goal) { curr = goal; clearInterval(interval); }
-        el.textContent = Math.round(curr) + '%';
+        el.textContent = Math.round(curr) + '+';
       }, 16);
 
-      // Animate SVG ring clockwise
+      // Animate SVG ring to 100%
       let svg = el.parentElement.querySelector('.dbs-stats-progress');
       let circumference = 2 * Math.PI * 36;
       svg.setAttribute('stroke-dasharray', circumference);
-      svg.style.transition = 'stroke-dashoffset 1.5s cubic-bezier(.72,0,.22,1)';
-      setTimeout(function() {
-        svg.setAttribute('stroke-dashoffset', circumference * (1 - goal / 100));
+      svg.style.transition = 'stroke-dashoffset 2s ease'; // Slower, smoother
+      svg.setAttribute('stroke-dashoffset', circumference); // Start from 0%
+      setTimeout(function () {
+        svg.setAttribute('stroke-dashoffset', 0); // Animate to 100%
       }, 80);
     });
   }
+
   // Intersection Observer: trigger when stats section is visible
-  let observer = new window.IntersectionObserver(function(entries){
-    if(entries[0].isIntersecting) animateStats();
+  let observer = new window.IntersectionObserver(function (entries) {
+    if (entries[0].isIntersecting) animateStats();
   }, { threshold: 0.3 });
   let statsSection = document.querySelector('.dbs-stats-section');
-  if(statsSection) observer.observe(statsSection);
+  if (statsSection) observer.observe(statsSection);
 });
+
 
 
 /////////////////////////////////////////////////

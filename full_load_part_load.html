@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DBS Cargo Movers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--===Header-Section-Start===-->
+    <header class="dbs-header-main shadow-sm">
+       <!-- Top Bar (News/Contact) -->
+   <div class="state-marquee dbs-header-mob-topbar">
+  <span class="fixed-label">News :</span>
+  <div class="scroll-wrapper">
+    <div class="scroll-text">
+      PACKERS AND MOVERS IN • PACKERS AND MOVERS IN 
+    </div>
+  </div>
+</div>
+      <!-- /Top Bar Desktop -->
+
+      <!-- LOGO, CONTACTS, HEAD OFFICE ROW -->
+      <div class="dbs-header-brand-row py-2">
+        <div
+          class="container d-flex flex-column flex-lg-row align-items-center justify-content-between"
+        >
+          <div class="d-flex align-items-center mb-2 mb-lg-0">
+            <a href="index.html"
+              ><img
+                src="assets/images/logo.png"
+                class="dbs-header-logo me-2"
+                alt="logo"
+                style="height: 62px"
+            /></a>
+          </div>
+          <div class="d-flex align-items-center gap-4 contact-section">
+            <div class="d-flex align-items-center">
+              <i class="fas fa-phone-alt"></i>
+              <span>
+                <a href="tel:+91 8800013570" class="fw-bold"
+                  >24/7 Customer: 8800013570 </a
+                ><br />
+                <a
+                  href="mailto:dbscargomovers@gmail.com"
+                  style="font-size: 0.94em"
+                  >dbscargomovers@gmail.com</a
+                >
+              </span>
+            </div>
+            <div class="d-flex align-items-center">
+              <i class="fas fa-home"></i>
+              <span>
+                <a href="tel:+91 8800013570" class="fw-bold"
+                  >Office No. :8800013570</a
+                ><br />
+                <span style="font-size: 0.94em">Head Office</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MOBILE MENU BAR (BOTTOM) -->
+        <div class="dbs-header-mobilemenu-bar d-lg-none mt-2">
+          <div class="">
+            <div class="d-flex justify-content-center">
+              <button
+                class="btn dbs-header-menubtn p-4 d-flex align-items-center justify-content-center py-2"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#dbs-header-mobile-menucollapse"
+                aria-controls="dbs-header-mobile-menucollapse"
+                aria-expanded="false"
+                aria-label="Toggle mobile nav"
+              >
+                <i class="fas fa-bars me-2"></i> Menu
+              </button>
+            </div>
+            <!-- NAV COLLAPSE -->
+            <div class="collapse" id="dbs-header-mobile-menucollapse">
+              <nav class="dbs-header-mainnav-mobile px-2 pt-2">
+                <a href="index.html" class="dbs-header-mainnav-link">Home</a>
+                <div class="dropdown d-inline-block w-100">
+                  <a
+                    href="#"
+                    class="dbs-header-mainnav-link dropdown-toggle w-100 active"
+                    data-bs-toggle="dropdown"
+                    >Transportation Services</a
+                  >
+                  <div class="dropdown-menu w-100">
+                    <a class="dropdown-item" href="parcel_service.html"
+                      >Parcel Service</a
+                    >
+                    <a class="dropdown-item" href="bulk_transportation.html"
+                      >Bulk Transportation</a
+                    >
+                    <a class="dropdown-item" href="full_load_part_load.html"
+                      >Full Load / Part Load</a
+                    >
+                    <a class="dropdown-item" href="containerised_service.html"
+                      >Containerised Service</a
+                    >
+                    <a class="dropdown-item" href="odc_transportation.html"
+                      >ODC Transportation</a
+                    >
+                    <a
+                      class="dropdown-item"
+                      href="project_cargo_management.html"
+                      >Project Cargo Management</a
+                    >
+                  </div>
+                </div>
+                <a href="about.html" class="dbs-header-mainnav-link"
+                  >About Us</a
+                >
+                <a href="gallery.html" class="dbs-header-mainnav-link"
+                  >Gallery</a
+                >
+                <a href="contact.html" class="dbs-header-mainnav-link"
+                  >Contact Us</a
+                >
+                <form class="dbs-header-searchform mt-2 d-block">
+                  <input
+                    class="form-control dbs-header-searchinput mb-2"
+                    type="search"
+                    placeholder="Search ..."
+                    aria-label="Search"
+                  />
+                </form>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESKTOP NAVBAR (BOTTOM) -->
+      <nav class="dbs-header-navbar bg-white d-none d-lg-block">
+        <div class="container" style="background-color: #391e6b">
+          <div class="d-flex align-items-center p-2">
+            <nav class="dbs-header-mainnav flex-grow-1">
+              <a href="index.html" class="dbs-header-mainnav-link">Home</a>
+              <div class="dropdown d-inline-block">
+                <a
+                  href="#"
+                  class="dbs-header-mainnav-link dropdown-toggle active"
+                  data-bs-toggle="dropdown"
+                  >Transportation Services</a
+                >
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="parcel_service.html"
+                    >Parcel Service</a
+                  >
+                  <a class="dropdown-item" href="bulk_transportation.html"
+                    >Bulk Transportation</a
+                  >
+                  <a class="dropdown-item" href="full_load_part_load.html"
+                    >Full Load / Part Load</a
+                  >
+                  <a class="dropdown-item" href="containerised_service.html"
+                    >Containerised Service</a
+                  >
+                  <a class="dropdown-item" href="odc_transportation.html"
+                    >ODC Transportation</a
+                  >
+                  <a class="dropdown-item" href="project_cargo_management.html"
+                    >Project Cargo Management</a
+                  >
+                </div>
+              </div>
+              <a href="about.html" class="dbs-header-mainnav-link">About Us</a>
+
+              <a href="gallery.html" class="dbs-header-mainnav-link">Gallery</a>
+              <a href="contact.html" class="dbs-header-mainnav-link"
+                >Contact Us</a
+              >
+            </nav>
+            <form class="dbs-header-searchform d-flex ms-2">
+              <input
+                class="form-control dbs-header-searchinput"
+                type="search"
+                placeholder="Search ..."
+                aria-label="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--===Header-Section-End===-->
+    <!--===Hero-Section-Start===-->
+    <section class="dbs-headerbg-section">
+      <div class="dbs-headerbg-overlay"></div>
+      <div class="container dbs-headerbg-content">
+        <div>
+          <div class="dbs-headerbg-title">Full Load / Part Load Service</div>
+          <div class="dbs-headerbg-breadcrumb">
+            <a href="#">Home</a>
+            <span>&gt;</span>
+            <span>Full Load / Part Load Service</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===Hero-Section-End===-->
+    <!--===Service-Section-Start===-->
+    <section>
+      <div class="container-fluid p-4">
+        <div class="row g-4">
+          <div class="col-lg-4 order-1 order-lg-0">
+            <!--===Service-Link Section-Start===-->
+            <div class="dbs-servicelist-box">
+              <div class="dbs-servicelist-inner">
+                <h2 class="dbs-servicelist-title">
+                  Transportation Services List
+                </h2>
+                <ul class="dbs-servicelist-ul">
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-parcel"
+                      href="parcel_service.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span> Parcel
+                      Service
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-bulk"
+                      href="bulk_transportation.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span> Bulk
+                      Transportation
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-fullpart"
+                      href="full_load_part_load.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span> Full
+                      Load / Part Load
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-containerised"
+                      href="containerised_service.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span>
+                      Containerised Service
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-odc"
+                      href="odc_transportation.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span> ODC
+                      Transportation
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dbs-servicelist-link dropdown-item"
+                      id="dbs-servicelist-projectcargo"
+                      href="project_cargo_management.html"
+                    >
+                      <span class="dbs-servicelist-arrow">&rsaquo;</span>
+                      Project Cargo Management
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--===Service-Link Section-End===-->
+            <!--===Form Section-Start===-->
+            <div class="sticky-lg-top mt-4">
+              <div class="dbs-about-form-card">
+                <h5
+                  class="dbs-about-form-title text-white fw-bold mb-4 text-center"
+                >
+                  Request A Quote
+                </h5>
+                <div class="p-lg-5 p-3">
+                  <form>
+                    <div class="row g-2 mb-3">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control dbs-about-form-input"
+                          placeholder="Your Name"
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="email"
+                          class="form-control dbs-about-form-input"
+                          placeholder="Your Email"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row g-2 mb-3">
+                      <div class="col">
+                        <input
+                          type="tel"
+                          class="form-control dbs-about-form-input"
+                          placeholder="Your Phone"
+                        />
+                      </div>
+                      <div class="col">
+                        <select class="form-control dbs-about-form-input">
+                          <option disabled selected>Your Service</option>
+                          <option value="Parcel Service">Parcel Service</option>
+                          <option value="Bulk Transportation">
+                            Bulk Transportation
+                          </option>
+                          <option value="Full Load / Part Load">
+                            Full Load / Part Load
+                          </option>
+                          <option value="Containerised Service">
+                            Containerised Service
+                          </option>
+                          <option value="ODC Transportation">
+                            ODC Transportation
+                          </option>
+                          <option value="Project Cargo Management">
+                            Project Cargo Management
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row g-2 mb-3">
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control dbs-about-form-input"
+                          placeholder="Moving From"
+                        />
+                      </div>
+                      <div class="col">
+                        <input
+                          type="text"
+                          class="form-control dbs-about-form-input"
+                          placeholder="Moving To"
+                        />
+                      </div>
+                    </div>
+                    <div class="mb-4">
+                      <textarea
+                        class="form-control dbs-about-form-input"
+                        rows="3"
+                        placeholder="Your Message"
+                      ></textarea>
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn dbs-about-form-btn w-100 fw-bold"
+                    >
+                      SUBMIT
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!--===Form Section-Start===-->
+          </div>
+          <div class="col-lg-8 order-0 order-lg-1">
+            <!--===Service-Detail Section-Start===-->
+            <section class="dbs-benefit-section py-4">
+              <div>
+                <img src="assets/images/ser5.jpg" width="100%" alt="" />
+              </div>
+              <div class="mt-2">
+                <h2 class="dbs-benefit-title fw-bold mb-3">
+                  Full Load / Part Load Service Overview
+                </h2>
+                <p class="dbs-benefit-desc mb-3">
+                At DBS Cargo Movers, we provide both Full Truck Load (FTL) and Part Truck Load (PTL) services to meet diverse business logistics needs. Our Full Load services are ideal for customers who require a dedicated vehicle for their cargo, ensuring faster delivery and added security. This service is perfect for bulk shipments, industrial equipment, or high-volume commercial goods.   </p>
+                <p class="dbs-benefit-desc mb-3">
+               For smaller shipments, our Part Load services offer a cost-effective and flexible solution. Customers only pay for the space their goods occupy, making it ideal for medium-sized businesses and individual consignments. Whether it’s a full truck or shared space, DBS Cargo Movers ensures timely pickup, safe handling, and on-time delivery with full transparency and tracking support.    </p>
+              </div>
+            </section>
+            <!--===Service-Detail Section-End===-->
+            <!--===Benifits Section-Start===-->
+            <section class="dbs-benefit-section py-5">
+              <div class="container">
+                <h2 class="dbs-benefit-title fw-bold mb-3">
+                  Benefits Of Transportation Services
+                </h2>
+                <div class="dbs-benefit-desc mb-5">
+                 Our transportation services are designed to offer speed, safety, and reliability. Whether it’s parcel delivery or bulk logistics, we ensure timely and secure movement of goods across cities. With advanced tracking, professional handling, and cost-effective solutions, our services help businesses grow and individuals deliver with peace of mind. Trust us for hassle-free transportation every time.
+                </div>
+                <div class="row text-center">
+                  <!-- Card 1 -->
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="dbs-benefit-card h-100 p-4">
+                      <div class="dbs-benefit-icon mb-3 mx-auto">
+                        <span class="dbs-benefit-icon-circle">
+                          <i class="fas fa-medal"></i>
+                        </span>
+                      </div>
+                      <div class="dbs-benefit-card-title fw-bold mb-1">
+                        Creative Solutions
+                      </div>
+                      <div class="dbs-benefit-card-text">
+                       We offer smart, efficient logistics solutions tailored to your needs, ensuring fast, safe, and cost-effective delivery every time.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="dbs-benefit-card h-100 p-4">
+                      <div class="dbs-benefit-icon mb-3 mx-auto">
+                        <span class="dbs-benefit-icon-circle">
+                          <i class="fas fa-users"></i>
+                        </span>
+                      </div>
+                      <div class="dbs-benefit-card-title fw-bold mb-1">
+                        Professional Team
+                      </div>
+                      <div class="dbs-benefit-card-text">
+                      Our expert team ensures safe handling, timely execution, and complete customer satisfaction with every shipment and service we provide.
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col-md-4">
+                    <div class="dbs-benefit-card h-100 p-4">
+                      <div class="dbs-benefit-icon mb-3 mx-auto">
+                        <span class="dbs-benefit-icon-circle">
+                          <i class="fas fa-dolly-flatbed"></i>
+                        </span>
+                      </div>
+                      <div class="dbs-benefit-card-title fw-bold mb-1">
+                        Diverse Approach
+                      </div>
+                      <div class="dbs-benefit-card-text">
+                       We provide flexible, customized transportation services for personal or commercial needs, covering all routes.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--===Benifits Section-End===-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===Service-Section-End===-->
+    <!--=== Contact-Banner Section End===-->
+    <section
+      class="dbs-24hours-section position-relative text-center d-flex align-items-center justify-content-center"
+    >
+      <div class="dbs-24hours-overlay"></div>
+      <div class="container position-relative dbs-24hours-content">
+        <div class="dbs-24hours-label mb-2">READY 24 HOURS</div>
+        <h2 class="dbs-24hours-title fw-bold mb-3">Available 24X7</h2>
+        <div class="dbs-24hours-desc mb-4">
+          Whether it's day or night, DBS Cargo Movers is always ready. Our
+          dedicated team works round the clock to ensure your goods are
+          transported safely, quickly, and without delay.
+        </div>
+        <a href="contact.html" class="dbs-24hours-btn btn fw-bold"
+          >CONTACT US</a
+        >
+      </div>
+    </section>
+    <!--=== Contact-Banner Section End===-->
+    <section class="py-5"></section>
+
+    <!--=== Footer Section Start===-->
+    <footer class="dbs-footer-section text-white pt-5 pb-0">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Brand/Social -->
+          <div class="col-lg-4 col-md-12">
+            <div
+              class="d-flex align-items-center mb-3 bg-white p-2 rounded-1 d-inline-flex"
+            >
+              <img
+                src="assets/images/logo.png"
+                alt="Logo"
+                class="dbs-footer-logo me-2"
+              />
+            </div>
+            <div class="dbs-footer-brand-desc mb-3">
+              "We provide reliable, affordable, and on-time transportation
+              services across India. Whether it's full-load or part-load, we
+              ensure the safety and timely delivery of every shipment."
+            </div>
+            <div class="dbs-footer-social mt-3 mb-2">
+              <a href="#" class="dbs-footer-social-icon" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="dbs-footer-social-icon" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="dbs-footer-social-icon" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="dbs-footer-social-icon" aria-label="YouTube"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="#" class="dbs-footer-social-icon" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <!-- Support -->
+          <div class="col-md-4 col-lg-2 ms-lg-auto">
+            <div class="dbs-footer-title fw-bold mb-2">Links</div>
+            <ul class="dbs-footer-list list-unstyled">
+              <li><a href="index.html" class="dbs-footer-link">Home</a></li>
+              <li><a href="about.html" class="dbs-footer-link">About</a></li>
+              <li>
+                <a href="contact.html" class="dbs-footer-link">Contact</a>
+              </li>
+              <li>
+                <a href="gallery.html" class="dbs-footer-link">Gallery</a>
+              </li>
+              <li>
+                <a href="privacy.html" class="dbs-footer-link"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="terms.html" class="dbs-footer-link"
+                  >Term & Conditions</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Our Services -->
+          <div class="col-md-4 col-lg-3">
+            <div class="dbs-footer-title fw-bold mb-2">Our Services</div>
+            <ul class="dbs-footer-list list-unstyled">
+              <li>
+                <a href="parcel_service.html" class="dbs-footer-link"
+                  >Parcel Service</a
+                >
+              </li>
+              <li>
+                <a href="bulk_transportation.html" class="dbs-footer-link"
+                  >Bulk Transportation</a
+                >
+              </li>
+              <li>
+                <a href="full_load_part_load.html" class="dbs-footer-link"
+                  >Full Load / Part Load</a
+                >
+              </li>
+              <li>
+                <a href="containerised_service.html" class="dbs-footer-link"
+                  >Containerised Service</a
+                >
+              </li>
+              <li>
+                <a href="odc_transportation.html" class="dbs-footer-link"
+                  >ODC Transportation</a
+                >
+              </li>
+              <li>
+                <a href="project_cargo_management.html" class="dbs-footer-link"
+                  >Project Cargo Management</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div class="col-md-4 col-lg-3">
+            <div class="dbs-footer-title fw-bold mb-2">Contact</div>
+            <ul class="dbs-footer-list list-unstyled">
+              <li class="d-flex align-items-start mb-2">
+                <span class="dbs-footer-contact-icon mt-1"
+                  ><i class="fas fa-map-marker-alt"></i
+                ></span>
+                <span class="dbs-footer-contact-text">
+                  4th FLOOR, 415, Bhagirath Icon, Opp. Narol Court, Narol,
+                  Ahmedabad, Ahmedabad, Gujarat, 3824052
+                </span>
+              </li>
+              <li class="d-flex align-items-center mb-2">
+                <span class="dbs-footer-contact-icon"
+                  ><i class="fas fa-phone-alt"></i
+                ></span>
+                <a href="tel:+918800013570" class="dbs-footer-contact-text"
+                  >+91 8800013570</a
+                >
+              </li>
+
+              <li class="d-flex align-items-center mb-2">
+                <span class="dbs-footer-contact-icon"
+                  ><i class="fas fa-envelope"></i
+                ></span>
+                <a
+                  href="mailto:dbscargomovers@gmail.com"
+                  class="dbs-footer-contact-text"
+                  >dbscargomovers@gmail.com</a
+                >
+              </li>
+
+              <li class="d-flex align-items-center mb-2">
+                <span class="dbs-footer-contact-icon"
+                  ><i class="fas fa-envelope"></i
+                ></span>
+                <a
+                  href="mailto:info@dbscargomovers.com"
+                  class="dbs-footer-contact-text"
+                  >info@dbscargomovers.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="dbs-footer-bottom text-center py-3 mt-4">
+        <div>
+          © Copyright 2025 | Powered by DBS Cargo Movers. and Designed By
+        </div>
+        <a href="https://standupstartups.com/" class="dbs-footer-copyright">
+          Standup Startups Pvt. Ltd.
+        </a>
+      </div>
+    </footer>
+
+    <!--=== Footer Section End===-->
+    <!--===Whatsapp-Section-Start===-->
+
+    <div class="what">
+      <a href="https://wa.me/918800013570" target="_blank"
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+      <a href="tel:+91 8800013570">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+    </div>
+
+    <!--===Whatsapp-Section-End===-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
